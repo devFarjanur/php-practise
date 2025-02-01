@@ -17,6 +17,17 @@ for ($num = 20; $count <= $userInput; $num += 3, $count++) {
 
 echo "<br>" . "While Loop" . "<br>";
 
+$num = 31;
+$count = 1;
+while ($count <= $userInput) {
+    if ($num % 2 == 0) {
+        echo "Number is Even" . "<br>";
+    } else {
+        echo "Number is Odd" . "<br>";
+    }
 
+    $num += 5;
+    $count++;
+}
 
 ?>
